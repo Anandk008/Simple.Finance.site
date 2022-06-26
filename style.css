@@ -230,3 +230,27 @@ body {
 #success .container {
     margin-top: 8%;
 }
+
+.btn1{
+    display: inline-block;
+    color: #fff;
+    background: #93cb52;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+}
+
+.btn1-dark{
+    display: inline-block;
+    color: #fff;
+    background: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+}
+
+.btn1:hover {
+    background: #7ab436;
+}
