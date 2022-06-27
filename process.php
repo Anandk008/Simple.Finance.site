@@ -2,7 +2,7 @@
   if (isset($_POST['email']))  {
   
     //Email information
-    $admin_email = "brad@edgeledger.net";
+    $admin_email = "anandkadale1@gmail.com";
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
@@ -14,4 +14,4 @@
     header('Location: https://anandk008.github.io/Simple.Finance.site/success.html' , TRUE, 301);
   }
   exit();
-  ?>
+?>
