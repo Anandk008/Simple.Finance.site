@@ -133,7 +133,7 @@ body {
 
 /* Show Case  */
 #showcase {
-    background: #333 url(./image_resources/showcase.jpg) no-repeat center center/cover;
+    background: #333 url(../image_resources/showcase.jpg) no-repeat center center/cover;
     color: #fff;
     height: 100vh;
 }
@@ -185,7 +185,7 @@ body {
 }
 
 #who .who-img {
-    background: url(./image_resources/people.jpg) no-repeat center center/cover;
+    background: url(../image_resources/people.jpg) no-repeat center center/cover;
 }
 
 /*  Clients */
