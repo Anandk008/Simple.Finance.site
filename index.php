@@ -1,12 +1,12 @@
 <?php
-  if (isset($_GET['email']))  {
+  if (isset($_POST['email']))  {
   
     //Email information
     $admin_email = "anandkadale1@gmail.com";
-    $name = $_GET['name'];
-    $email = $_GET['email'];
-    $phone = $_GET['phone'];
-    $message = $_GET['message'];
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $message = $_POST['message'];
     
     //send email
     mail($admin_email, "New Form Submission", $message . ' - ' . $phone, "From:" . $email);
