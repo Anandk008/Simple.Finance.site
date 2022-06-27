@@ -43,7 +43,7 @@ $(document).ready(function(){
           scrollTop: $(hash).offset().top-110
         }, 1500, function(){
         // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
+          window.location.hash = hash -100;
         });
       } // End if
     });
