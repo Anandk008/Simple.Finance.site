@@ -13,5 +13,3 @@
     
     header('Location: https://anandk008.github.io/Simple.Finance.site/success.html' , TRUE, 301);
   }
-  exit();
-?>
